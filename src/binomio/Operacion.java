@@ -12,14 +12,18 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Alumno
+ * @author Sergio Cañas
+ * @version 1.0
  */
 public class Operacion implements ActionListener{
     
+    /** Variable que abre la ventana del programa*/
     JFrame ventana;
     
+    /** Campos de texto*/
     JTextField a, b;
     
+    /** Botón */
     JButton resultado;
     
     JLabel variableA, variableB;
