@@ -2,7 +2,8 @@ package binomio;
 
 /**
  *
- * @author Alumno
+ * @author Sergio Cañas
+ * @version 1.0
  */
 public class Binomio {
 
