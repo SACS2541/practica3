@@ -26,10 +26,16 @@ public class Operacion implements ActionListener{
     /** Botón */
     JButton resultado;
     
+    /** Texto indicativo*/
     JLabel variableA, variableB;
     
+    /** Contenedor de elementos visuales*/
     Container cont;
     
+    /**
+     *
+     * Constructor. Crea la ventana y agrega los elementos visuales
+     */
     public Operacion(){
         ventana = new JFrame("Binomio cuadrado");
         ventana.setSize(400, 500);
@@ -68,6 +74,10 @@ public class Operacion implements ActionListener{
         cont.add(resultado);
     }
 
+    /**
+     *
+     * @param e Recibe un evento
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == resultado){
